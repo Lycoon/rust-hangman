@@ -133,8 +133,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "test_proj"
-version = "0.1.0"
+name = "rust-hangman"
+version = "1.0.0"
 dependencies = [
  "rand 0.6.5 (registry+https://github.com/rust-lang/crates.io-index)",
 ]

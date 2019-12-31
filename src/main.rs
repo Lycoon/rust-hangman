@@ -13,7 +13,6 @@ fn main()
     let error = "You may only suggest letters from the alphabet.\n";
     
     let chosen_word = words[rand::thread_rng().gen_range(0, words.len())];
-    println!("The word to guess is {}", chosen_word);
     loop
     {
         print_word(chosen_word, &mut flagged);
